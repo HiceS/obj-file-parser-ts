@@ -1,10 +1,10 @@
 export default class OBJFile {
+    result: IResult;
     private fileContents;
     private defaultModelName;
     private currentMaterial;
     private currentGroup;
     private smoothingGroup;
-    private result;
     constructor(fileContents: string, defaultModelName?: string);
     parseAsync(): Promise<IResult>;
     parse(): IResult;

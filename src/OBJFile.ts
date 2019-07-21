@@ -1,14 +1,16 @@
 export default class OBJFile {
+  
+  public result: IResult = {
+    materialLibraries: [],
+    models: [],
+  };
+  
   private fileContents: string;
   private defaultModelName = 'untitled';
   private currentMaterial = '';
   private currentGroup = '';
   private smoothingGroup = 0;
 
-  private result: IResult = {
-    materialLibraries: [],
-    models: [],
-  };
 
   constructor(fileContents: string, defaultModelName?: string) {
     this.fileContents = fileContents;

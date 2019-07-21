@@ -30,9 +30,9 @@
   "author": "Alec Decker",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Deckeraga/obj-file-parser-ts/issues"
+    "url": "https://github.com/HiceS/obj-file-parser-ts/issues"
   },
-  "homepage": "https://github.com/Deckeraga/obj-file-parser-ts#readme",
+  "homepage": "https://github.com/HiceS/obj-file-parser-ts#readme",
   "devDependencies": {
     "@types/jest": "^24.0.12",
     "jest": "^20.0.4",

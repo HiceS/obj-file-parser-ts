@@ -2,14 +2,14 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var OBJFile = /** @class */ (function () {
     function OBJFile(fileContents, defaultModelName) {
-        this.defaultModelName = 'untitled';
-        this.currentMaterial = '';
-        this.currentGroup = '';
-        this.smoothingGroup = 0;
         this.result = {
             materialLibraries: [],
             models: [],
         };
+        this.defaultModelName = 'untitled';
+        this.currentMaterial = '';
+        this.currentGroup = '';
+        this.smoothingGroup = 0;
         this.fileContents = fileContents;
         if (defaultModelName !== undefined) {
             this.defaultModelName = defaultModelName;
